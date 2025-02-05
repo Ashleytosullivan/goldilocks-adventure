@@ -1,46 +1,171 @@
+/* NavBar */
 .heading {
-    font-family: Bona Nova SC;
-    color: white;
-    
+  font-family: "Bona Nova SC";
+  color: white;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 #pageheader {
-  background-color: grey;
+  background-color: rgb(82, 10, 10);
+  box-shadow: 0 10px 20px #00000096;
 }
 
-#chapter-title {
-    font-family: Frank Ruhl Libre;
-    color: white;
-}
-
-.card {
-  background-color:black;
-  border: 50px;
-  border-color: aquamarine ;
-}
-
-#card-description {
-    font-family: Frank Ruhl Libre;
-    color: rgb(255, 255, 255);
-}
-
+/* Body */
 body {
   min-height: 100vh;
   margin: 0;
-  background-color: black;
+  background-image: url("../images/wood.webp");
 }
 
+/* Chapter Title */
+#chapter-title {
+  font-family: "Frank Ruhl Libre";
+  color: white;
+  font-weight: 350;
+}
+
+/* Game Area */
+.card-image {
+  height: fit-content;
+  width: fit-content;
+}
+
+.card-body{
+  background-image: url("../images/blank_parchment.webp");
+  background-size: cover;
+}
+
+.card {
+  height: 100%;
+  box-shadow: 0 10px 20px #00000096;
+  border-width: 1vh;
+  border-color: rgb(82, 10, 10);
+  margin-bottom: 10vh;
+  max-width: 45vw;
+  justify-content: center;
+}
+
+#card-description {
+  font-family: "Frank Ruhl Libre";
+  font-weight: 600;
+  color: rgb(0, 0, 0);
+  font-size: 160%;
+  background-color: rgba(255, 255, 255, 0.281);
+  padding-left: 6px;
+  padding-right: 6px;
+}
+
+#card-container {
+  display: flex;
+  align-items: center;
+}
+
+.form-control{
+  font-family: "Frank Ruhl Libre";
+  font-size: 140%;
+  font-weight: 500;
+}
+
+.btn {
+  font-family: "Frank Ruhl Libre";
+  font-size: 100%;
+  margin-top: 10px;
+  box-shadow: 0 5px 10px #0000008a;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+#button {
+  padding-top: 10px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+
+/* Footer */
 footer {
   min-height: 25px;
-  background: PapayaWhip;
+  background-color: rgb(82, 10, 10);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
 }
 
-#button-start {
-  font-family: Frank Ruhl Libre;
+/* Footer Links */
+a {
+  color: white;
+  font-family: "Frank Ruhl Libre";
+  font-size: 160%;
 }
 
-#button-start-again {
-  font-family: Frank Ruhl Libre;
+/* Instruction Modal */
+.instructions {
+  background-color: none;
+  border: none;
+}
+
+#modal_trigger {
+  position: absolute;
+  top: 10px;
+  right: 50px; /* Adjusted to make space for the mute button */
+  margin-top: 0px;
+  box-shadow: 0 0px 0px;
+  line-height: 0px;
+  height: 30px; /* Set a fixed height */
+  margin-right: 10px;
+}
+
+#mute-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  margin-top: 0px;
+  box-shadow: 0 0px 0px;
+  line-height: 0px;
+  height: 50px; /* Set the same fixed height as modal trigger */
+}
+
+@media screen and (min-width: 230px) and (max-width: 320px) {
+  .card {
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
+  }
 }
 
 
+@media screen and (min-width: 321px) and (max-width: 425px) {
+  .card {
+    max-width: 90vw !important;
+  }
+
+  /* Footer Links */
+  a {
+    font-size: 100%;
+  }
+}
+
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .card {
+    max-width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .card {
+    max-width: 90vw !important;
+  }
+}
+
+@media screen and (min-width: 1025px) and (max-width: 1440px){
+  .card {
+    max-width: 80vw;
+    margin-bottom: 5vh;
+  }
+}

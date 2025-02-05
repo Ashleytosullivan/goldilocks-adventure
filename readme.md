@@ -1,10 +1,11 @@
-INSERT BRAND IMAGE
+
+![Tales In Motion Hero PNG](/readme_resources/front_page_readme.png)
 
 <h1 align="center">Tales In Motion</h1>
 
 <div align="center"> 
-<a target="_blank" href=""> | Live Link Here | </a>
-<a target="_blank" href=""> | Project Board | </a>
+<a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/"> | Live Link Here | </a>
+<a target="_blank" href="https://miro.com/app/board/uXjVLlv8dx4=/"> | Project Board | </a>
 </div align="center"> 
 
 <h1 align="center"> Introduction: </h1>
@@ -12,7 +13,7 @@ INSERT BRAND IMAGE
 <p>
 Tales in Motion is a assessed portfolio project developed as part of the Code Institute Full Stack Software Developer Bootcamp as part of a team effort. The team consists of Ashley O'Sullivan, Megan Otton and Jago Truscott. The learning outcomes for this project is to learn how to work as a team and use Github collabratively, alongside utilising our skills in HTML, CSS, Bootstrap and Java Script in order to create a interactive website. 
 
-The live project can found here: <a target="_blank" href="">Link Here</a>
+The live project can found here: <a target="_blank" href="https://ashleytosullivan.github.io/goldilocks-adventure/">Link Here</a>
 </p>
 
 ## Project Outline
@@ -44,27 +45,27 @@ As a player, I want the option to use my name for character interactions, so tha
 
 Color selection is a important part to any design and especially with this design, due to the fact it is primarily word based we need colours that compliment the text and aides in readability whilst not taking the users eyes away from the main centerpoint which is the game itself.
 
-With that in mind we chose... INSERT COLOUR PALLETTE HERE! 
+With that in mind we chose a wooden texture for the background to mimic a table backdrop and added red elements like the header and footer to represent traditional ribbon book marks. All the while having white headers to aid in readibility and to add emphasis to the main parts. 
 
 ### Fonts
 
 Fonts was another thing to consider when creating this website, the readibility as suggested in the last section is incredibly important.  
 
-FONT 1 was used ... because ...
+Bona Nova SC was used for the headers because it mimics traditional old fashioned book title fonts whilst still being legible.
 
-FONT 2 was used ... because ...
+Frank Ruhl Libre was used for the main text elements for similar reasons as above. 
 
-INSERT FONTS.
-
-ADD READIBILITY TESTS ON ALL COLOURS, IMAGES.
+<img src="/readme_resources/font_readibility_score.png" alt="Header & Footer Readibility Score">
+<img src="/readme_resources/main_font_readibility_score.png" alt="Main Text Readibility Score">
 
 ## Wireframes
+<img src="/readme_resources/wireframes.png" alt="Phone, Tablet and Laptop Wireframe">
 
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
 
 #### Index Page
 
-INSERT IMAGE HERE!
+<img src="/readme_resources/index_page.png" alt="Picture of the index page">
 
 ## Imagery
 
@@ -85,13 +86,12 @@ In order to fulfil the criteria set out by the user stories, listed above, the p
 
 Upon the creation and development of the project the design shifted slightly from the wireframe.
 Some key adjustments are as follow:
-- INSERT KEY ADJUSTMENTS
+- The addition of a How to Modal in the form of a fav-icon on the header,
+- Story chapter moving from the side to the center,
+- Tales in motion is no longer represented by a Jam Jar.
 
-#### Header
-
-#### Game Area
-
-#### Footer
+#### Index Page
+<img src="/readme_resources/index_page.png" alt="Picture of the index page">
 
 ## Responsive Design
 
@@ -99,11 +99,11 @@ With some experimentation we have been able to create a page that is fully respo
 
 Below is an image of my website from different devices.
 
-INSERT WEBSITE RESPONSIVENESS IMAGE
+<img src="/readme_resources/responsive_image.png" alt="Picture of the index page on different devices">
 
 Improvements:
 
-INSERT IMPROVEMENTS HERE
+If we were to improve this further we would look further into the fav icon images on the header as at certain resoloutions they change sizes from each other. 
 
 ## AI Implementation
 
@@ -121,12 +121,25 @@ INSERT IMPROVEMENTS HERE
 
 | Location               | Feature         | Expected Outcome                                                | Pass/Fail |
 | ---------------------- | --------------- | --------------------------------------------------------------- | --------- |
-| PAGE LOCATION     | FEATURE NAME  | USE                            | PASS/FAIL      |
-
-INSERT ROWS BELOW FOR EACH BUTTON ETC
+| Index/ / Nar Bar       | Instructions    | Popup with instructions on how to play                          | PASS |
+| Index / Nar Bar        | Mute            | Mute the background audio                                       | PASS |
+| Index / Card     | Choices buttons  | Allow the user to make narrative choices                      | PASS      |
+| Index / Card     | Name insert  | Allow the user to input their chosen name                         | PASS      |
+| Index / Card     | Start Again | Allow the user to restard the game                         | PASS      |
+| Index / Footer     | Credits  | Take user to authors' github pages                        | PASS      |
+| Index / Hidden     | Audio  | Audio to start playing after the player inputs their name                       | PASS      |
 
 - Conducted multiple tests on Emulated Mobile, Ipad and Laptop and Desktop. Along with a Manual Test On  Mobile, Ipad and Desktop, testing all webpages and links are working correctly.
-    - INSERT DEVICES AND RESOLUTIONS TESTED AT
+    - Desktop Devices
+    - iPhone SE
+    - Iphone 12 Pro
+    - Iphone 14 Pro Max
+    - Pixel 7
+    - iPad Air
+    - iPad Pro
+    - Samsung Galaxy 8+
+    - Samsung Galaxy S20 Ultra
+    - Nest Hub
 
 - All information can be read clearly and the page is responsive.
 
@@ -136,25 +149,35 @@ INSERT ROWS BELOW FOR EACH BUTTON ETC
 
 ### Validation
 
-Index Page:
-
-VALIDATER IMAGE SCORE
-
-CSS:
-
-VALIDATER IMAGE SCORE
+Index Page: ![HTML](/readme_resources/html-valid.PNG)
 
 
-JS:
 
-VALIDATER IMAGE SCORE
+CSS: ![CSS](/readme_resources/css-valid.PNG)
+
+JS: 
+![JavaScript](/readme_resources/js-valid.PNG)
 
 Lighthouse:
 
 Mobile
 
-RESPONSIVE IMAGE SCORE LIGHTHOUSE
+The mobile Lighthouse score was reduced by a number of issues at the time of testing, predominantly the Largest Contentful Paint element. This issue can be resolved by pre loading the image in future projects.
+
+![Lighthouse](/readme_resources/lighthouse-mobile.PNG)
 
 Desktop
 
-RESPONSIVE IMAGE SCORE LIGHTHOUSE
+
+![Lighthouse](/readme_resources/lighthouse-desktop.PNG)
+
+
+### Credits
+- Favicons generated by favicon.io
+- Music track: Forest Bathing by Piki
+Source: https://freetouse.com/music
+Copyright Free Music for Videos
+- JavaScript and HTML from Bootstrap Design
+- Fonts provided by Google Fonts
+- Images by FontAwesome
+- Wireframes created on Balsamiq
