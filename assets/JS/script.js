@@ -257,14 +257,17 @@ const chapters = {
             });
         });
 
-        // EVENT LISTENER FOR MUTE
+        // EVENT LISTENER FOR MUTE BUTTON + CHANGE SYMBOL
 
         document.getElementById('mute-button').addEventListener('click', function() {
             var audio = document.getElementById('background-audio');
+            var muteButton = document.getElementById('mute-button');
             if (audio.muted) {
                 audio.muted = false;
+                muteButton.innerHTML = ' <i class="fa-solid fa-volume-xmark fa-2xl"></i>';
             } else {
                 audio.muted = true;
+                muteButton.innerHTML = '<i class="fa-solid fa-play fa-2xl"></i>';
             }
         });
 

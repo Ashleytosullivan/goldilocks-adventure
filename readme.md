@@ -61,6 +61,8 @@ Frank Ruhl Libre was used for the main text elements for similar reasons as abov
 ## Wireframes
 <img src="/readme_resources/wireframes.png" alt="Phone, Tablet and Laptop Wireframe">
 
+![wireframe](/readme_resources/locks-webpage-wireframe-final.png)
+
 These wireframes have been created using Balsamiq to define the key feature layout to guide the user experience design. We will be using mostly our own code rather than Bootstrap elements so that it is easier to configure the functions in Java Script.
 
 #### Index Page
@@ -156,6 +158,7 @@ Index Page: ![HTML](/readme_resources/html-valid.PNG)
 CSS: ![CSS](/readme_resources/css-valid.PNG)
 
 JS: 
+
 ![JavaScript](/readme_resources/js-valid.PNG)
 
 Lighthouse:
